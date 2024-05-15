@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.search{
+    position: relative;
+}
+
+.searchResult{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 600px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.searchResult .result-item{
+    display: flex;
+    align-items: start;
+}
+
+.searchResult .result-item img{
+    display: block;
+    width: 150px;
+    height: 100px;
+}
+
+.searchResult .result-item .content{
+   padding: 10px 20px;
+}
